@@ -1,0 +1,39 @@
+html , body {
+    height:100%;
+}
+
+body {
+    display:table;
+    margin:auto;
+    text-align:center;
+    font-family:Avnenir Next , sans-serif;
+}
+#board {
+    padding-top:3em;
+}
+.row {
+    clear:both;
+    text-align:center;
+    width:302px;
+}
+.row > div {
+    float:left;
+    height:100px;
+    width:100px;
+}
+
+.top {
+    border-bottom:1px solid black;
+}
+
+.left {
+    border-right:1px solid black;
+}
+
+.bottom {
+    border-top:1px solid black;
+}
+
+.right {
+    border-left:1px solid black;
+}
