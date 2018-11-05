@@ -98,7 +98,7 @@ function reset() {
 }
 
 
-function clear_game( square_array ){
+function clear_game( square_array ) {
     square_array.forEach(function( square ) {
         square.textContent = "";
         outcome = false;
