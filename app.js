@@ -3,20 +3,18 @@ const outcome_container = document.querySelector(".outcome_container");
 let outcome = false; // boolean value for if the game has been won | TODO: use value
 let counter = 0;
 
-
-
 // horizonal rows
-const top_row =       document.querySelectorAll(".top");
-const center_row =    document.querySelectorAll(".center");
-const bottom_row =    document.querySelectorAll(".bottom");
+const top_row       =    document.querySelectorAll(".top");
+const center_row    =    document.querySelectorAll(".center");
+const bottom_row    =    document.querySelectorAll(".bottom");
 
 // vertical columns
-const left_column =   document.querySelectorAll(".left");
-const right_column =  document.querySelectorAll(".right");
-const middle_column = document.querySelectorAll(".middle");
+const left_column   =    document.querySelectorAll(".left");
+const right_column  =    document.querySelectorAll(".right");
+const middle_column =    document.querySelectorAll(".middle");
 
 // diagonal
-const left_diagonal =  [squares[0],squares[4],squares[8]]; // downwards diagonal from the left
+const left_diagonal  = [squares[0],squares[4],squares[8]]; // downwards diagonal from the left
 const right_diagonal = [squares[2],squares[4],squares[6]]; // upwards diagonal from the right
 
 
