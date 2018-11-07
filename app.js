@@ -114,7 +114,7 @@ function set_outcome( count ) {
 }
 
 
-function is_empty( square_array ) { // when this function returns 0, on line 70, then it is determined that the game was a draw
+function is_empty( square_array ) { // when this function returns 0, on line 69, then it is determined that the game was a draw
     let count = 0;
     for(let i = 0; i < square_array.length;++i) { // the first time this loops it starts at eight because it loops when the user clicks
         if(square_array[i].textContent === "") {
