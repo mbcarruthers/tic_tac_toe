@@ -32,7 +32,7 @@ function check_rows( row_array ) {  // supposed to pass in an array of rows , re
             ++o_counter;
         }
     }
-    return x_counter === 3 || o_counter === 3 ? true : false;
+    return x_counter === 3 || o_counter === 3;
 }
 
 
