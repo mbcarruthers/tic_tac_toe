@@ -66,7 +66,7 @@ function square_clicked( event ) {
             square.removeEventListener("click", square_clicked );
         });
     }
-    if(is_empty( squares ) === 0 )
+   else if(is_empty( squares ) === 0 )
     {
         outcome_container.innerHTML = "Draw!";
         outcome = true;
